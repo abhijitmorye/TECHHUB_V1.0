@@ -16,7 +16,7 @@ body{
 .div1 img {
 
     height:100px;
-    width:100px;
+    max-width: 100%;
 }
 
 .div1 ul {
