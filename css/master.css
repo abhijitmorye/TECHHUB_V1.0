@@ -32,6 +32,7 @@ header h2 {
   color: #000000;
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 0em;
 }
 
 p {
@@ -42,7 +43,7 @@ p {
 /* Header Layout */
 .headercontainer {
   width: 90%;
-  max-width: 1000px;
+  max-width: 950px;
   margin: 0em auto;
 }
 
