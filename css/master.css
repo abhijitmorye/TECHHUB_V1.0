@@ -416,3 +416,137 @@ nav a:focus {
   font-weight: 500;
   color: #000000;
 }
+
+/* topic section */
+.topic-section-box {
+  text-align: left;
+  padding: 0.5em;
+  margin-top: 2em;
+}
+
+.topic-section-box-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topic-section-box-title {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: solid 1px #707070;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em
+}
+
+.topic-section-box-div {
+  border-bottom: 1px dotted #707070;
+}
+
+.topic-section-box-div:last-child {
+  border-bottom: none;
+}
+
+.topic-section-box-topics {
+  text-decoration: none;
+}
+
+.topic-section-box-topics:hover {
+  color: #204051;
+}
+
+.tag-section {
+  text-align: left;
+  margin-top: 2em;
+  padding: 0.5em;
+}
+
+.tag-section-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.tag-section-title {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: solid 1px #707070;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em
+}
+
+.tag-list-box-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tag-list-subsection-box {
+  margin-bottom: -1.6em;
+}
+
+.tag-list-subsection-box-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.tag-list-subsection-box ul {
+  list-style-type: none;
+  padding-left: 0em;
+  display: flex;
+  justify-content: start;
+}
+
+.tag-list-subsection-box li {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #393e46;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  border: 1px solid #707070;
+  margin-right: 0.5em;
+  padding: 0.1em 0.3em;
+}
+
+.tag-list-subsection-box li:hover {
+  background-color: #89c9b8;
+  color: #ffffff;
+}
+
+.tag-list-box-A {
+  margin-bottom: -0.7em;
+}
+
+@media (min-width: 793px) {
+  .tag-list-subsection-box-flex {
+    flex-direction: column;
+  }
+
+  .tag-list-box-B {
+    margin-top: -0.8em;
+  }
+}
+
+/* footer section */
+footer {
+  margin-top: 5em;
+  background-color: #000000;
+  text-align: center;
+  padding: 2em;
+}
+
+footer h3 {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+footer p {
+  font-famil: 'Ubuntu', sans-serif;
+  font-size: 0.7em;
+  font-weight: 300;
+}
